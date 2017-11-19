@@ -15,6 +15,9 @@ canvas{
 	right: 0;
 	bottom: 0;
 	display: block;
+	background-image: url("../../images/bg_main.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #wrapper{
 	position: relative;
@@ -64,10 +67,17 @@ canvas{
 	float: right;
 }
 
+.products .mainimg {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
 #header.banner{
-	height: 400px;
-	background: url(../../images/phone/banner.jpg) 50% 0 no-repeat;
-	background-size: cover;
+	position: relative;
+	z-index: 9;
+	height: 300px;
+	/*background: url(../../images/phone/banner.jpg) 50% 0 no-repeat;*/
+	/*background-size: cover;*/
 }
 .mt-20{
 	margin-top: -20px;
@@ -1712,10 +1722,13 @@ canvas{
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		/*background-image: url("../../images/bg_main.jpg");
+		background-size: 100% auto;
+		background-repeat: no-repeat;*/
+		/*background-image: url("images/bg_main.jpg"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/bg_main.jpg"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/bg_main.jpg"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/bg_main.jpg"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
